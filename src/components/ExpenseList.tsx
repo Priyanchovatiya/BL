@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useExpenses } from '../context/ExpenseContext';
-import { Transaction } from '../types';
 
 export default function ExpenseList() {
   const { expenses, categories, deleteTransaction } = useExpenses();

@@ -4,8 +4,6 @@ import { createContext, useContext, useEffect, useState, ReactNode } from 'react
 import { Transaction, Category, ExpenseStats } from '../types';
 import { 
   getTransactions,
-  getExpenses,
-  getIncomes,
   addTransaction,
   updateTransaction,
   deleteTransaction,

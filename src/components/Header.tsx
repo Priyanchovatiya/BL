@@ -7,9 +7,8 @@ import {
   Box,
   Flex,
   Text,
-  IconButton,
   Button,
-  Stack,
+  IconButton,
   Heading,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';

@@ -59,7 +59,7 @@ export default function Dashboard() {
   
   // Calculate category data for visualization
   const categoryData = Object.entries(stats.byCategory)
-    .filter(([_, amount]) => amount !== 0)
+    .filter(([, amount]) => amount !== 0)
     .map(([categoryId, amount]) => ({
       id: categoryId,
       name: getCategoryName(categoryId),
