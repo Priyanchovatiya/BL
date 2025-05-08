@@ -40,7 +40,9 @@ const theme = extendTheme({
     },
   },
   styles: {
-    global: () => ({
+    /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any */
+    global: (props: any) => ({
+    /* eslint-enable @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any */
       body: {
         bg: 'gray.900',
         color: 'white',
